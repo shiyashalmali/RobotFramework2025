@@ -1,0 +1,88 @@
+1749614859526	geckodriver	INFO	Listening on 127.0.0.1:59112
+1749614862590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shssh\\AppData\\Local\\Temp\\rust_mozprofileJuPFF6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749614863332	Marionette	INFO	Marionette enabled
+1749614863931	Marionette	INFO	Listening on port 59122
+WebDriver BiDi listening on ws://127.0.0.1:59113
+Read port: 59122
+1749614864098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+JavaScript warning: https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp, line 297: Script terminated by timeout at:
+c@https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp:297:185
+b@https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp:279:475
+
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+JavaScript warning: https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp, line 297: Script terminated by timeout at:
+c@https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp:297:185
+b@https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp:279:475
+
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+1749614971630	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1749614980267	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+JavaScript warning: https://www.amazon.in/, line 3846: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71hE7IvdPvL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:472:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:436:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2215:33
+addAllSources@resource://devtools/server/actors/thread.js:1582:14
+watch@resource://devtools/server/actors/resources/sources.js:81:17
+watchResources@resource://devtools/server/actors/resources/index.js:367:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:86:23
+#addOrSetSessionDataEntry@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:398:21
+receiveMessage@resource://devtools/server/connectors/js-process-actor/DevToolsProcessChild.sys.mjs:323:46
+Line: 719, column: 0
+console.error: [Exception... "Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'
+JavaScript error: resource:///actors/AboutNewTabParent.sys.mjs, line 28: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript warning: https://www.amazon.in/, line 3791: Script terminated by timeout at:
+l@https://www.amazon.in/:3791:262
+
+1749615791799	Marionette	INFO	Stopped listening on port 59122
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object

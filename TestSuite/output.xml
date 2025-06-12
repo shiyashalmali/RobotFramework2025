@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-06-09T15:49:57.618792" rpa="false" schemaversion="5">
+<suite id="s1" name="SetupAtKeywordLevel" source="C:\Users\shssh\PycharmProjects\PythonProject\JuneRoboFwEGIndia2025\TestSuite\SetupAtKeywordLevel.robot">
+<test id="s1-t1" name="Login" line="4">
+<kw name="Login">
+<kw name="Launch browser" owner="Resource" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-09T15:49:57.703242" level="INFO">Launching the browser</msg>
+<arg>Launching the browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.703044" elapsed="0.000308"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.702506" elapsed="0.000988"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Logging to application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.703656" elapsed="0.000759"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the username</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.704917" elapsed="0.000415"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the password</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.705523" elapsed="0.001441"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user clicks on the login button</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.707150" elapsed="0.002101"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user is navigated to home page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.709429" elapsed="0.000933"/>
+</kw>
+<kw name="Close the browser" owner="Resource" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-09T15:49:57.711273" level="INFO">Closing the browser</msg>
+<arg>Closing the browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.711109" elapsed="0.000241"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.710737" elapsed="0.000712"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.701921" elapsed="0.009593"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.700671" elapsed="0.011215"/>
+</test>
+<test id="s1-t2" name="AddToCart" line="7">
+<kw name="AddToCart">
+<kw name="Launch browser" owner="Resource" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-09T15:49:57.720431" level="INFO">Launching the browser</msg>
+<arg>Launching the browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.720312" elapsed="0.000183"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.720066" elapsed="0.000501"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Adding products to cart</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.720667" elapsed="0.000764"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the username</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.721621" elapsed="0.000258"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the password</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.722006" elapsed="0.000490"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user clicks on the login button</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.723215" elapsed="0.000552"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user is navigated to home page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.723918" elapsed="0.000495"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User adds the product to cart</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.724589" elapsed="0.000674"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User validates that the product is added to cart</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.725414" elapsed="0.000308"/>
+</kw>
+<kw name="Launch browser" owner="Resource">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-09T15:49:57.726587" level="INFO">Launching the browser</msg>
+<arg>Launching the browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.726471" elapsed="0.000203"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.726170" elapsed="0.000572"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Lauching the browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.726838" elapsed="0.000438"/>
+</kw>
+<kw name="Close the browser" owner="Resource">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-09T15:49:57.729954" level="INFO">Closing the browser</msg>
+<arg>Closing the browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.729793" elapsed="0.000238"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.727897" elapsed="0.002240"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Closing the browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.730277" elapsed="0.001804"/>
+</kw>
+<kw name="Close the browser" owner="Resource" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-09T15:49:57.732865" level="INFO">Closing the browser</msg>
+<arg>Closing the browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-09T15:49:57.732740" elapsed="0.000183"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.732382" elapsed="0.000640"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.719646" elapsed="0.013419"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:49:57.714591" elapsed="0.019910"/>
+</test>
+<status status="PASS" start="2025-06-09T15:49:57.626993" elapsed="0.112000"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="SetupAtKeywordLevel" id="s1" pass="2" fail="0" skip="0">SetupAtKeywordLevel</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

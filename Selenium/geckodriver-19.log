@@ -1,0 +1,29 @@
+1749554523863	geckodriver	INFO	Listening on 127.0.0.1:56071
+1749554526952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56072" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shssh\\AppData\\Local\\Temp\\rust_mozprofilecLTJDb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749554527902	Marionette	INFO	Marionette enabled
+1749554528637	Marionette	INFO	Listening on port 56079
+WebDriver BiDi listening on ws://127.0.0.1:56072
+Read port: 56079
+1749554528918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://omayo.blogspot.com."
+JavaScript warning: https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp, line 297: Script terminated by timeout at:
+c@https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp:297:185
+b@https://www.blogger.com/_/scs/mss-static/_/js/k=boq-blogger.BloggerNavbarUi.en_US.RqiQJBu0uYY.es5.O/am=AAADWwAQ/d=1/excm=_b,_tp,navbarview/ed=1/dg=0/wt=2/ujg=1/rs=AEy-KP0YJjoz2TuOANjTFYVX6FiyC4_G-w/m=_b,_tp:279:475
+
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+1749554617593	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

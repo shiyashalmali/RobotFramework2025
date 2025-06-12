@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-06-12T12:39:06.207380" rpa="false" schemaversion="5">
+<suite id="s1" name="videoDELETE" source="C:\Users\shssh\PycharmProjects\PythonProject\JuneRoboFwEGIndia2025\API\videoDELETE.robot">
+<test id="s1-t1" name="Post request example" line="10">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2025-06-12T12:39:06.911621" level="INFO">Creating Session using : alias=baseURI, url=https://videogamedb.uk:443/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>baseURI</arg>
+<arg>${base_url}</arg>
+<arg>verify=False</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2025-06-12T12:39:06.911064" elapsed="0.000914"/>
+</kw>
+<kw name="DELETE On Session" owner="RequestsLibrary">
+<msg time="2025-06-12T12:39:07.342570" level="INFO">DELETE Request : url=https://videogamedb.uk:443/api/v2/videogame/1 
+ path_url=/api/v2/videogame/1 
+ headers={'User-Agent': 'python-requests/2.32.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'} 
+ body=None 
+ </msg>
+<msg time="2025-06-12T12:39:07.342860" level="INFO">DELETE Response : url=https://videogamedb.uk:443/api/v2/videogame/1 
+ status=200, reason= 
+ headers={'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-frame-options': 'DENY', 'content-type': 'text/plain;charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Thu, 12 Jun 2025 07:09:07 GMT', 'server': 'Fly/3e8bebaf (2025-06-05)', 'via': '1.1 fly.io, 1.1 fly.io', 'fly-request-id': '01JXHFH5GZY5Y3E02V27M8ZXGD-bom', 'transfer-encoding': 'chunked'} 
+ body=Video game deleted 
+ </msg>
+<msg time="2025-06-12T12:39:07.343023" level="INFO">C:\Users\shssh\PycharmProjects\PythonProject\JuneRoboFwEGIndia2025\.venv\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'videogamedb.uk'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2025-06-12T12:39:07.343886" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>baseURI</arg>
+<arg>${Servicename}</arg>
+<doc>Sends a DELETE request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2025-06-12T12:39:06.912625" elapsed="0.431403"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-12T12:39:07.346620" level="INFO">&lt;Response [200]&gt;</msg>
+<arg>${response}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-12T12:39:07.346274" elapsed="0.000436"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-12T12:39:07.347888" level="INFO">200</msg>
+<arg>${response.status_code}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-12T12:39:07.347055" elapsed="0.000911"/>
+</kw>
+<status status="PASS" start="2025-06-12T12:39:06.909784" elapsed="0.438521"/>
+</test>
+<status status="PASS" start="2025-06-12T12:39:06.214766" elapsed="1.137531"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="videoDELETE" id="s1" pass="1" fail="0" skip="0">videoDELETE</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

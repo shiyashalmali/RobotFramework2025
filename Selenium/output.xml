@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-06-11T12:35:51.512446" rpa="false" schemaversion="5">
+<suite id="s1" name="TabHandling" source="C:\Users\shssh\PycharmProjects\PythonProject\JuneRoboFwEGIndia2025\Selenium\TabHandling.robot">
+<test id="s1-t1" name="Table" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:35:52.340141" level="INFO">Opening browser 'Firefox' to base url 'https://the-internet.herokuapp.com/tables'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-11T12:35:52.339190" elapsed="12.418886"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-11T12:36:04.758673" elapsed="0.004492"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-11T12:36:06.769784" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-11T12:36:04.763746" elapsed="2.007239"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n--- Example 1 Table Data ---</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.782469" elapsed="0.014676"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.829344" level="INFO">@{rows} = [ &lt;selenium.webdriver.remote.webelement.WebElement (session="12f1ecf7-912f-40b3-a014-37ba94e279db", element="5b690a31-7f03-4250-a697-d74642a2f24b")&gt; | &lt;selenium.webdriver.remote.webelement.WebElement ...</msg>
+<var>@{rows}</var>
+<arg>xpath=//table[@id='table1']/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.804009" elapsed="0.025449"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.853388" level="INFO">${text} = Smith John jsmith@gmail.com $50.00 http://www.jsmith.com edit delete</msg>
+<var>${text}</var>
+<arg>${row}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.830754" elapsed="0.022752"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.853817" elapsed="0.000579"/>
+</kw>
+<var name="${row}">&lt;selenium.webdriver.remote.webelement.WebElement (session="12f1ecf7-912f-40b3-a014-37ba94e279db", element="5b690a31-7f03-4250-a697-d74642a2f24b")&gt;</var>
+<status status="PASS" start="2025-06-11T12:36:06.830527" elapsed="0.023978"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.868742" level="INFO">${text} = Bach Frank fbach@yahoo.com $51.00 http://www.frank.com edit delete</msg>
+<var>${text}</var>
+<arg>${row}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.854950" elapsed="0.014118"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.869730" elapsed="0.001834"/>
+</kw>
+<var name="${row}">&lt;selenium.webdriver.remote.webelement.WebElement (session="12f1ecf7-912f-40b3-a014-37ba94e279db", element="49a298f3-5af5-44a1-9d40-4e6287a6173f")&gt;</var>
+<status status="PASS" start="2025-06-11T12:36:06.854770" elapsed="0.016939"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.888768" level="INFO">${text} = Doe Jason jdoe@hotmail.com $100.00 http://www.jdoe.com edit delete</msg>
+<var>${text}</var>
+<arg>${row}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.872253" elapsed="0.016590"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.889129" elapsed="0.002283"/>
+</kw>
+<var name="${row}">&lt;selenium.webdriver.remote.webelement.WebElement (session="12f1ecf7-912f-40b3-a014-37ba94e279db", element="d3df7b6d-2a92-4520-9a1d-e19819311c5d")&gt;</var>
+<status status="PASS" start="2025-06-11T12:36:06.872039" elapsed="0.019494"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.907526" level="INFO">${text} = Conway Tim tconway@earthlink.net $50.00 http://www.timconway.com edit delete</msg>
+<var>${text}</var>
+<arg>${row}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.891956" elapsed="0.015647"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.907875" elapsed="0.000551"/>
+</kw>
+<var name="${row}">&lt;selenium.webdriver.remote.webelement.WebElement (session="12f1ecf7-912f-40b3-a014-37ba94e279db", element="08282d17-14a9-4478-a37e-70f959c27e1b")&gt;</var>
+<status status="PASS" start="2025-06-11T12:36:06.891763" elapsed="0.016784"/>
+</iter>
+<var>${row}</var>
+<value>@{rows}</value>
+<status status="PASS" start="2025-06-11T12:36:06.830055" elapsed="0.078602"/>
+</for>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.925636" level="INFO">${last_name_1} = Conway</msg>
+<var>${last_name_1}</var>
+<arg>xpath=//table[@id='table1']/tbody/tr[4]/td[1]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.909118" elapsed="0.016581"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n ${last_name_1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.926059" elapsed="0.000719"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2025-06-11T12:36:06.941335" level="INFO">${first_name_2} = John</msg>
+<var>${first_name_2}</var>
+<arg>xpath=//table[@id='table2']/tbody/tr[1]/td[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.927132" elapsed="0.014277"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n ${first_name_2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.942095" elapsed="0.000505"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-11T12:36:08.945030" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-11T12:36:06.943408" elapsed="2.001875"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-11T12:36:08.946930" elapsed="3.578996"/>
+</kw>
+<status status="PASS" start="2025-06-11T12:35:52.337356" elapsed="20.190323"/>
+</test>
+<status status="PASS" start="2025-06-11T12:35:51.517471" elapsed="21.015362"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TabHandling" id="s1" pass="1" fail="0" skip="0">TabHandling</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
